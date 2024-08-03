@@ -1,4 +1,5 @@
 **AWS Continuous Integration Demo**
+
 Set Up GitHub Repository
 The first step in our CI journey is to set up a GitHub repository to store our Python application's source code. If you already have a repository, feel free to skip this step. Otherwise, let's create a new repository on GitHub by following these steps:
 
@@ -11,6 +12,7 @@ Click on the "Create repository" button to create your new GitHub repository.
 Great! Now that we have our repository set up, we can move on to the next step.
 
 **Create an AWS CodePipeline**
+
 In this step, we'll create an AWS CodePipeline to automate the continuous integration process for our Python application. AWS CodePipeline will orchestrate the flow of changes from our GitHub repository to the deployment of our application. Let's go ahead and set it up:
 
 Go to the AWS Management Console and navigate to the AWS CodePipeline service.
@@ -28,6 +30,7 @@ Review the pipeline configuration and click on the "Create pipeline" button to c
 Awesome job! We now have our pipeline ready to roll. Let's move on to the next step to set up AWS CodeBuild.
 
 **Configure AWS CodeBuild**
+
 In this step, we'll configure AWS CodeBuild to build our Python application based on the specifications we define. CodeBuild will take care of building and packaging our application for deployment. Follow these steps:
 
 In the AWS Management Console, navigate to the AWS CodeBuild service.
@@ -42,6 +45,7 @@ Review the build project settings and click on the "Create build project" button
 Fantastic! With AWS CodeBuild all set up, we're now ready to witness the magic of continuous integration in action.
 
 **Trigger the CI Process**
+
 In this final step, we'll trigger the CI process by making a change to our GitHub repository. Let's see how it works:
 
 Go to your GitHub repository and make a change to your Python application's source code. It could be a bug fix, a new feature, or any other change you want to introduce.
